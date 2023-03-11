@@ -6,4 +6,4 @@ This repository contains my progress through Computer Science at Open Source Soc
 
 Subject | Duration | Link
 :-- | :--: | :--:
-Introduction to Computer Science and Programming with Python | 9 weeks | [here](./cs50p)
+Introduction to Computer Science and Programming with Python | 9 weeks | [here](./cs50p/cs50p.md)
