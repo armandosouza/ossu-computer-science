@@ -1,0 +1,6 @@
+rich
+newsapi-python
+tinydb
+cfonts
+passlib
+pwinput
