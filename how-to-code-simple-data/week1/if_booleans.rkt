@@ -11,3 +11,12 @@
 
 (string=? "foo" "bar")
 ;Expected output: false
+
+(if (< (image-width I1) (image-width I2))
+	"yes"
+	"no")
+;Expected output: yes, because the I1's width is less than I2's width.
+
+(and (< (image-width I1) (image-width I2))
+	 (< (count "Testing") (count "Large")))
+;Expected output: true, because both expressions are truthy evaluated.
