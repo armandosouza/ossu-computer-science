@@ -40,23 +40,22 @@ def main():
 	print(title)
 	panel()
 	while True:
-		try:
-			opt = str(input())
-			if opt == '1':
-				login_user()
-				break
-			elif opt == '2':
-				register_user()
-				panel()
-				pass
-			elif opt == '3':
-				clear_console()
-				panel()
-				pass
-			elif opt == '4':
-				exit()
-			else:
-				console.print('Option not valid!', style='red on white')
+		opt = str(input())
+		if opt == '1':
+			login_user()
+			break
+		elif opt == '2':
+			register_user()
+			panel()
+			pass
+		elif opt == '3':
+			clear_console()
+			panel()
+			pass
+		elif opt == '4':
+			exit()
+		else:
+			console.print('Option not valid!', style='red on white')
 
 
 def register_user():
@@ -71,6 +70,7 @@ def register_user():
 			console.print('Account has been successfully registered!', style='green on white')
 	except RegisterException:
 		console.print('You already has an account!', style='red on white')
+		clear_console()
 
 
 def login_user():
@@ -81,11 +81,9 @@ def login_user():
 		decrypt = pbkdf2_sha256.verify(password, user[0]['password'])
 		if not decrypt:
 			raise LoginException
-		else:
-
 	except LoginException:
 		console.print('Password is not correct!', style='red on white')
-
+		clear_console()
 
 
 if __name__ == "__main__":
