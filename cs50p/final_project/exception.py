@@ -7,6 +7,6 @@ class RegisterException(Exception):
 	"Triggered when occurs an error in register"
 	pass
 
-class UserException(Exception):
-	"Triggered when occurs an error in register"
+class RemoveUserException(Exception):
+	"Triggered when occurs an error to remove an user"
 	pass
