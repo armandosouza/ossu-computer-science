@@ -89,4 +89,4 @@ jar | [here](./jar/jar.py)
 shirtificate | [here](./shirtificate/shirtificate.py)
 
 ### Final Project
-My final project - PyJournal - is a simple program that delivers news based in your interests. You can find the code of this project [here](./final_project/project.py).
+My final project - PyJournal - is a simple program that delivers news based on your interests. You can find the code of this project [here](./final_project/project.py).
