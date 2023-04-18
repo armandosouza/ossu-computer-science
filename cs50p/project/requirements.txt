@@ -1,6 +1,7 @@
 rich
 newsapi-python
 tinydb
-cfonts
+python-cfonts
 passlib
 pwinput
+python-dotenv
