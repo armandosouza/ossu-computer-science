@@ -36,3 +36,5 @@ Exercise | Link
 :-- | :--:
 Cond Expression | [here](./week2/cond_exp.rkt)
 City Name | [here](./week2/city_name.rkt)
+Best City | [here](./week2/best_city.rkt)
+Seat Number | [here](./week2/seat_number.rkt)
