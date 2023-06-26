@@ -29,3 +29,10 @@ Tall | [here](./week1b/tall.rkt)
 Less than five | [here](./week1b/less_than_five.rkt)
 Image Area | [here](./week1b/image-area.rkt)
 Area | [here](./week1b/area.rkt)
+
+### Week 2 - How to Design Data
+
+Exercise | Link
+:-- | :--:
+Cond Expression | [here](./week2/cond_exp.rkt)
+City Name | [here](./week2/city_name.rkt)
